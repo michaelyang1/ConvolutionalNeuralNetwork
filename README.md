@@ -23,7 +23,8 @@ Usage
 * The 3 types of layers are : convolutional layers, maxpooling layers, and fully connected layers
 * In the arguments for the final layer, supply the keyword argument done=True as the second argument for the add_layer function, indicating the completion of creating the model architecture 
 * To train the network, call the train function from the ConvModel class 
-* Note you must first create the network via the add_layer function before you can begin training 
+* Note you must first create the network via the add_layer function before you can begin training
+* Layers are added sequentially, meaning the final layer added is also the output layer of the network 
 
 Contact Information 
 
