@@ -1,4 +1,4 @@
-# ConvolutionalNeuralNetwork
+# Convolutional Neural Network Library
 This is a convolutional neural network library with various customizable features. This library can create models that can classify black and white or tri-color RGB images with any set of dimensions. 
 
 Prerequisites
@@ -8,13 +8,13 @@ Before you continue, ensure you have met the following requirements:
 * You have installed Python 3
 * You have installed NumPy 
 * You have downloaded the MNIST database (only for demo in test.py to run; you can skip this step and use your own dataset if you so desire)
-* You have a basic understanding of convolutional neural networks 
+* You have a basic understanding of convolutional neural networks
 
 Installation 
 
 1) Install Python with the NumPy library 
 2) Download the mnist_train.csv and mnist_test.csv files from https://www.kaggle.com/oddrationale/mnist-in-csv 
-3) Place both files in the project folder 
+3) Place both files in the project folder
 
 Usage 
 
@@ -24,10 +24,11 @@ Usage
 * In the arguments for the final layer, supply the keyword argument done=True as the second argument for the add_layer function, indicating the completion of creating the model architecture 
 * To train the network, call the train function from the ConvModel class 
 * Note you must first create the network via the add_layer function before you can begin training
-* Layers are added sequentially, meaning the final layer added is also the output layer of the network 
+* Layers are added sequentially, meaning the final layer added is also the output layer of the network
+* Achieved a greater than 99% validation accuracy on the benchmark 70,000 MNIST handwritten digits database with a multilayer CNN constructed from this library
 
 Contact Information 
 
-* Email : myang1394@gmail.com
+* Email : myang243@stanford.edu
 
 
